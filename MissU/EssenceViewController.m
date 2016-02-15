@@ -18,9 +18,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"百思不得姐";
+    [self setupNavigationBar];
 }
 
 
+- (void)setupNavigationBar{
+    UIImageView *barImage = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"MainTitle"]];
+    barImage.frame = CGRectMake(0, 0, 107, 19);
+    self.navigationItem.titleView = barImage;
+    
+    
+    
+}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [super touchesBegan:touches withEvent:event];
+    [self.navigationController pushViewController:[EssenceViewController new] animated:YES];
+}
 
 @end

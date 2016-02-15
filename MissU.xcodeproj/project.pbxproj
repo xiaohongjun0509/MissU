@@ -25,6 +25,10 @@
 		822867551C5B17B0004343A4 /* AttentionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 822867531C5B17B0004343A4 /* AttentionViewController.m */; };
 		822867561C5B17B0004343A4 /* AttentionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 822867541C5B17B0004343A4 /* AttentionViewController.xib */; };
 		825624A71C5A2AB600E562FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 825624A61C5A2AB600E562FC /* Images.xcassets */; };
+		8256D4551C6608A0004AEE0D /* XHJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8256D4541C6608A0004AEE0D /* XHJTabBarController.m */; };
+		8256D4581C66BDE4004AEE0D /* XHJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8256D4571C66BDE4004AEE0D /* XHJNavigationController.m */; };
+		8256D45B1C66EFCF004AEE0D /* XHJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8256D45A1C66EFCF004AEE0D /* XHJTabBar.m */; };
+		8256D45E1C674484004AEE0D /* UIView+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 8256D45D1C674484004AEE0D /* UIView+Extention.m */; };
 		9D94B66752AD9ECEFAD14BC0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 323CFE15D06DC3B1E943E2BF /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +62,15 @@
 		822867531C5B17B0004343A4 /* AttentionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttentionViewController.m; sourceTree = "<group>"; };
 		822867541C5B17B0004343A4 /* AttentionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttentionViewController.xib; sourceTree = "<group>"; };
 		825624A61C5A2AB600E562FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8256D4531C6608A0004AEE0D /* XHJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHJTabBarController.h; sourceTree = "<group>"; };
+		8256D4541C6608A0004AEE0D /* XHJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHJTabBarController.m; sourceTree = "<group>"; };
+		8256D4561C66BDE4004AEE0D /* XHJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHJNavigationController.h; sourceTree = "<group>"; };
+		8256D4571C66BDE4004AEE0D /* XHJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHJNavigationController.m; sourceTree = "<group>"; };
+		8256D4591C66EFCF004AEE0D /* XHJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHJTabBar.h; sourceTree = "<group>"; };
+		8256D45A1C66EFCF004AEE0D /* XHJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHJTabBar.m; sourceTree = "<group>"; };
+		8256D45C1C674484004AEE0D /* UIView+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extention.h"; sourceTree = "<group>"; };
+		8256D45D1C674484004AEE0D /* UIView+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extention.m"; sourceTree = "<group>"; };
+		8256D45F1C674919004AEE0D /* PreHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreHeader.h; sourceTree = "<group>"; };
 		A14C7EEF00246FEF592B2535 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,17 +116,13 @@
 		821610B51C5A10D3002CFA90 /* MissU */ = {
 			isa = PBXGroup;
 			children = (
+				8256D44F1C66057D004AEE0D /* other */,
 				8228673A1C5B1586004343A4 /* WrapedLib */,
 				821610D11C5A155E002CFA90 /* Attention */,
 				821610D01C5A153E002CFA90 /* Me */,
 				821610CF1C5A1523002CFA90 /* Publish */,
 				821610CE1C5A1516002CFA90 /* Newest */,
 				821610CD1C5A1501002CFA90 /* Essence */,
-				821610B91C5A10D3002CFA90 /* AppDelegate.h */,
-				821610BA1C5A10D3002CFA90 /* AppDelegate.m */,
-				821610BC1C5A10D3002CFA90 /* ViewController.h */,
-				821610BD1C5A10D3002CFA90 /* ViewController.m */,
-				821610BF1C5A10D3002CFA90 /* Main.storyboard */,
 				821610D61C5A1A19002CFA90 /* Video */,
 				821610C21C5A10D3002CFA90 /* Assets.xcassets */,
 				821610C41C5A10D3002CFA90 /* LaunchScreen.storyboard */,
@@ -286,6 +295,51 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
+		8256D44F1C66057D004AEE0D /* other */ = {
+			isa = PBXGroup;
+			children = (
+				8256D4521C6605AD004AEE0D /* Model */,
+				8256D4511C6605A6004AEE0D /* View */,
+				8256D4501C66059B004AEE0D /* Controller */,
+				821610B91C5A10D3002CFA90 /* AppDelegate.h */,
+				821610BA1C5A10D3002CFA90 /* AppDelegate.m */,
+				821610BC1C5A10D3002CFA90 /* ViewController.h */,
+				821610BD1C5A10D3002CFA90 /* ViewController.m */,
+				821610BF1C5A10D3002CFA90 /* Main.storyboard */,
+				8256D45F1C674919004AEE0D /* PreHeader.h */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
+		8256D4501C66059B004AEE0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8256D4531C6608A0004AEE0D /* XHJTabBarController.h */,
+				8256D4541C6608A0004AEE0D /* XHJTabBarController.m */,
+				8256D4561C66BDE4004AEE0D /* XHJNavigationController.h */,
+				8256D4571C66BDE4004AEE0D /* XHJNavigationController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8256D4511C6605A6004AEE0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8256D4591C66EFCF004AEE0D /* XHJTabBar.h */,
+				8256D45A1C66EFCF004AEE0D /* XHJTabBar.m */,
+				8256D45C1C674484004AEE0D /* UIView+Extention.h */,
+				8256D45D1C674484004AEE0D /* UIView+Extention.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8256D4521C6605AD004AEE0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		9BCAB350F8952C70703CA665 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -323,6 +377,7 @@
 		821610AB1C5A10D3002CFA90 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XHJ;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ihj;
 				TargetAttributes = {
@@ -422,14 +477,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8256D4551C6608A0004AEE0D /* XHJTabBarController.m in Sources */,
 				821610BE1C5A10D3002CFA90 /* ViewController.m in Sources */,
 				822867551C5B17B0004343A4 /* AttentionViewController.m in Sources */,
 				821610BB1C5A10D3002CFA90 /* AppDelegate.m in Sources */,
+				8256D4581C66BDE4004AEE0D /* XHJNavigationController.m in Sources */,
 				822867501C5B179D004343A4 /* MeViewController.m in Sources */,
 				822867491C5B1766004343A4 /* PublishViewController.m in Sources */,
+				8256D45E1C674484004AEE0D /* UIView+Extention.m in Sources */,
 				821610B81C5A10D3002CFA90 /* main.m in Sources */,
 				8228673E1C5B1673004343A4 /* EssenceViewController.m in Sources */,
 				822867441C5B16EA004343A4 /* NewestViewController.m in Sources */,
+				8256D45B1C66EFCF004AEE0D /* XHJTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,13 +598,31 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A14C7EEF00246FEF592B2535 /* Pods.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = /Users/ihj/Desktop/MissU/MissU/PreHeader.h;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/CYLTabBarController\"",
+					"\"${PODS_ROOT}/Headers/Public/DACircularProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/NJKWebViewProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/YYKit\"",
+					"\"${PODS_ROOT}/Headers/Public/pop\"",
+					"\"$(SRCROOT)/MissU/PreHeader.h\"",
+				);
 				INFOPLIST_FILE = MissU/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HJ.MissU;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "";
 			};
 			name = Debug;
 		};
@@ -553,8 +630,25 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 29A9ABEE978E17BACE6057DB /* Pods.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = /Users/ihj/Desktop/MissU/MissU/PreHeader.h;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/CYLTabBarController\"",
+					"\"${PODS_ROOT}/Headers/Public/DACircularProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/NJKWebViewProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/YYKit\"",
+					"\"${PODS_ROOT}/Headers/Public/pop\"",
+					"\"$(SRCROOT)/MissU/PreHeader.h\"",
+				);
 				INFOPLIST_FILE = MissU/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "CYLTabBarController.h"
+#import "XHJTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +17,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+    self.window.rootViewController = [[XHJTabBarController alloc]init];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
