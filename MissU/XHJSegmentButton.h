@@ -14,5 +14,5 @@
 
 @property (nonatomic, copy) NSArray *titles;
 
-@property (nonatomic, copy) NSArray *blockArray;
+@property (nonatomic, copy) void (^buttonDidClickBlock)(NSInteger);
 @end

@@ -78,10 +78,10 @@
 }
 
 - (void)btnClick:(UIButton *)sender{
-//    id block = self.blockArray[sender.tag - 1000];
-//    if (block) {
-////        block();
-//    }
+    NSInteger index= sender.tag - 1000;
+    if (self.buttonDidClickBlock) {
+        self.buttonDidClickBlock(index);
+    }
     self.selectedButton.userInteractionEnabled = YES;
     self.selectedButton.selected = NO;
     self.selectedButton = sender;
