@@ -10,6 +10,8 @@
 
 
 #import "UIView+Extention.h"
+#import "AFNetworking.h"
+#import "MJExtension.h"
 
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
 
@@ -17,4 +19,8 @@
 
 #define RGB(a,b,c) [UIColor colorWithRed:a/255.0 green:b/255.0 blue:c/255.0 alpha:1]
 
-
+#define REDCOLOR [UIColor colorWithRed:228 / 255.0 green:46 / 255.0 blue:21 / 255.0 alpha:1]
+#define BLACKCOLOR [UIColor colorWithRed:51 / 255.0 green:51 / 255.0 blue:51 / 255.0 alpha:1]
+#define BGCOLOR [UIColor colorWithRed:248 / 255.0 green:248 / 255.0 blue:248 / 255.0 alpha:1]
+#define WORDCOLOR [UIColor colorWithRed:123 / 255.0 green:123 / 255.0 blue:123 / 255.0 alpha:1]
+#define WEAKSELF   typeof(self)     __weak weakSelf = self;
