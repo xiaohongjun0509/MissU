@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XHJWordController : UITableViewController
+@interface XHJWordController : XHJTopicViewController
 
 @end

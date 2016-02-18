@@ -30,8 +30,8 @@
 }
 
 - (void)setupSegmentButton{
-    self.segmentButton = [[XHJSegmentButton alloc] initWithFrame:CGRectMake(0, 64, ScreenWidth, 44)];
-    self.segmentButton.titles = @[@"全部",@"视频",@"图片",@"段子"];
+    self.segmentButton = [[XHJSegmentButton alloc] initWithFrame:CGRectMake(0, 64, ScreenWidth, SegmentButtonH)];
+    self.segmentButton.titles = @[@"全部",@"视频",@"图片",@"段子",@"其他"];
     WEAKSELF
     self.segmentButton.buttonDidClickBlock = ^(NSInteger index){
         [weakSelf.sc setContentOffset:CGPointMake(index * ScreenWidth, 0) animated:YES];
@@ -57,6 +57,9 @@
     XHJWordController *wordController = [XHJWordController new];
     [self addChildViewController:wordController];
     
+    XHJWordController *word1Controller = [XHJWordController new];
+    [self addChildViewController:word1Controller];
+    
 }
 
 -(void)setupContentView{
@@ -65,8 +68,9 @@
     self.sc.showsHorizontalScrollIndicator = NO;
     self.sc.showsVerticalScrollIndicator = YES;
     self.sc.alwaysBounceHorizontal = NO;
-    self.sc.scrollEnabled = NO;
-    self.sc.contentSize = CGSizeMake(self.childViewControllers.count * ScreenWidth, ScreenHeight);
+//    self.sc.scrollEnabled = NO;
+//    这里contentSize的height不能有值，否则的话他在处置方向上也可以滑动。在哪一个方向上滑动就只需设置对应的值。
+    self.sc.contentSize = CGSizeMake(self.childViewControllers.count * ScreenWidth, 0);
     self.sc.pagingEnabled = YES;
     self.sc.delegate = self;
     UIViewController *controller = self.childViewControllers[0];

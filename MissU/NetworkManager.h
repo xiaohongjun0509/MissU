@@ -10,6 +10,16 @@
 
 @interface NetworkManager : NSObject
 
-+(instancetype)sharedInstance;
 
+
++(void)startRequest:(nullable id)params
+                    success:(nullable void (^)(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject))successBlock
+                    failure:(nullable void (^)(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error))failure;
+
+
+
+//- (nullable NSURLSessionDataTask *)GET:(NSString *)URLString
+//                            parameters:(nullable id)parameters
+//                               success:(nullable void (^)(NSURLSessionDataTask *task, id responseObject))success
+//                               failure:(nullable void (^)(NSURLSessionDataTask * __nullable task, NSError *error))failure;
 @end

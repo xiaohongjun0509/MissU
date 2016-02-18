@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XHJPictureController : UITableViewController
+@interface XHJPictureController : XHJTopicViewController
 
 @end

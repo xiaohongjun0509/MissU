@@ -12,6 +12,12 @@
 #import "UIView+Extention.h"
 #import "AFNetworking.h"
 #import "MJExtension.h"
+#import "XHJConst.h"
+#import "MJRefresh.h"
+#import "SVProgressHUD.h"
+#import "XHJTopicViewController.h"
+#import "NetworkManager.h"
+#import "UIImageView+WebCache.h"
 
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
 
@@ -24,3 +30,16 @@
 #define BGCOLOR [UIColor colorWithRed:248 / 255.0 green:248 / 255.0 blue:248 / 255.0 alpha:1]
 #define WORDCOLOR [UIColor colorWithRed:123 / 255.0 green:123 / 255.0 blue:123 / 255.0 alpha:1]
 #define WEAKSELF   typeof(self)     __weak weakSelf = self;
+
+
+#define API @"http://api.budejie.com/api/api_open.php"
+
+
+/*定义用到的图片的类型*/
+typedef NS_ENUM(NSInteger,TopicType){
+    TopicTypeAll = 1,
+    TopicTypePicture = 10,
+    TopicTypeWord = 29,
+    TopicTypeAudio = 31,
+    TopicTypeVideo = 41
+};

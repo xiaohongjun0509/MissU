@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XHJAllController : UITableViewController
+@interface XHJAllController : XHJTopicViewController
 
 @end
