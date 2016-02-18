@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "XHJTabBarController.h"
+#import "XHJGuideView.h"
 
 @interface AppDelegate ()
 
@@ -19,6 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window.rootViewController = [[XHJTabBarController alloc]init];
     [self.window makeKeyAndVisible];
+    [XHJGuideView show];
     return YES;
 }
 

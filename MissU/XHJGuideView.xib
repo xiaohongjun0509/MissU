@@ -9,8 +9,48 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XHJGuideView">
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pushguidebg" translatesAutoresizingMaskIntoConstraints="NO" id="3Au-vs-ix9">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pushguidetop" translatesAutoresizingMaskIntoConstraints="NO" id="zDh-yp-WFk">
+                    <rect key="frame" x="0.0" y="100" width="320" height="55"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pushguidemid" translatesAutoresizingMaskIntoConstraints="NO" id="f2i-ET-GQD">
+                    <rect key="frame" x="0.0" y="185" width="320" height="125"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pushguidebot" translatesAutoresizingMaskIntoConstraints="NO" id="M19-Tr-dy8">
+                    <rect key="frame" x="0.0" y="315" width="320" height="90"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2MI-Ye-LJC">
+                    <rect key="frame" x="95" y="367" width="92" height="30"/>
+                    <connections>
+                        <action selector="hide:" destination="iN0-l3-epB" eventType="touchUpInside" id="neK-1K-Yv3"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="zDh-yp-WFk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="AB5-HF-rmx"/>
+                <constraint firstItem="3Au-vs-ix9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Gph-M3-ppr"/>
+                <constraint firstItem="f2i-ET-GQD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="JVV-sz-X1b"/>
+                <constraint firstItem="3Au-vs-ix9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="JaP-cX-JcJ"/>
+                <constraint firstAttribute="trailing" secondItem="M19-Tr-dy8" secondAttribute="trailing" id="KFi-du-rT8"/>
+                <constraint firstItem="f2i-ET-GQD" firstAttribute="top" secondItem="zDh-yp-WFk" secondAttribute="bottom" constant="30" id="OZD-2l-wgt"/>
+                <constraint firstAttribute="trailing" secondItem="zDh-yp-WFk" secondAttribute="trailing" id="Qmn-Bf-N7O"/>
+                <constraint firstItem="zDh-yp-WFk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="100" id="WK0-8S-YaP"/>
+                <constraint firstItem="M19-Tr-dy8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="h5Q-bO-dn5"/>
+                <constraint firstAttribute="trailing" secondItem="f2i-ET-GQD" secondAttribute="trailing" id="kKG-xt-GOJ"/>
+                <constraint firstAttribute="trailing" secondItem="3Au-vs-ix9" secondAttribute="trailing" id="kQp-jX-9kw"/>
+                <constraint firstItem="M19-Tr-dy8" firstAttribute="top" secondItem="zDh-yp-WFk" secondAttribute="bottom" constant="160" id="o7i-fL-9Rh"/>
+                <constraint firstAttribute="bottom" secondItem="3Au-vs-ix9" secondAttribute="bottom" id="tY5-JJ-Tv9"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
     </objects>
+    <resources>
+        <image name="pushguidebg" width="400" height="200"/>
+        <image name="pushguidebot" width="130" height="90"/>
+        <image name="pushguidemid" width="240" height="125"/>
+        <image name="pushguidetop" width="250" height="55"/>
+    </resources>
 </document>
