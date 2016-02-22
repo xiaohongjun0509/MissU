@@ -8,6 +8,8 @@
 
 #import "MeViewController.h"
 
+#import "XHJVerticalButton.h"
+
 @interface MeViewController ()
 
 @end
@@ -16,9 +18,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    XHJVerticalButton *button = [[XHJVerticalButton alloc] initWithFrame:CGRectMake(0, 100, 50, 80)];
+    button.backgroundColor = [UIColor redColor];
+    [button setTitle:@"微博" forState:UIControlStateNormal];
+    [button setImage:[UIImage imageNamed:@"login_QQ_icon"] forState:UIControlStateNormal];
+//    [button setFont:[UIFont systemFontOfSize:12]];
+    [self.view addSubview:button];
 }
 
+- (IBAction)login:(id)sender {
+}
 
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{

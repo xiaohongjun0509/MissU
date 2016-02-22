@@ -63,7 +63,9 @@
     [self addChildViewController:nc];
 }
 
-
+- (void)plusButtonDidClick{
+    NSLog(@"-----");
+}
 
 
 @end

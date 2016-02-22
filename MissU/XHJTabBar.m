@@ -31,6 +31,7 @@
     [self.plusButton setImage:image forState:UIControlStateNormal];
     self.plusButton.bounds = CGRectMake(0, 0, image.size.width, image.size.height);
     [self addSubview:self.plusButton];
+    [self.plusButton addTarget:self.delegate action:@selector(plusButtonDidClick) forControlEvents:UIControlEventTouchUpInside];
 }
 
 

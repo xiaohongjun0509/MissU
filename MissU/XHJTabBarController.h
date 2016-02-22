@@ -10,4 +10,5 @@
 
 @interface XHJTabBarController : UITabBarController
 
+- (void)plusButtonDidClick;
 @end
