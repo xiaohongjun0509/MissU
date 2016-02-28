@@ -15,3 +15,6 @@ extern  CGFloat const cellMarign;
 extern  CGFloat const CellHeaderH;
 extern  CGFloat const CellButtomH;
 
+extern  CGFloat const MaxPictureH;
+
+extern  CGFloat const FoldPictureH;

@@ -14,6 +14,7 @@
 #import "EssenceViewController.h"
 #import "XHJTabBar.h"
 #import "XHJNavigationController.h"
+#import "XHJPublishView.h"
 
 @interface XHJTabBarController ()
 
@@ -64,7 +65,10 @@
 }
 
 - (void)plusButtonDidClick{
-    NSLog(@"-----");
+//    NSLog(@"-----");
+    XHJPublishView *publishView = [[XHJPublishView alloc] initWithFrame:self.view.frame];
+//    UIWindow *keyWindow =
+    [[UIApplication sharedApplication].keyWindow addSubview:publishView];
 }
 
 

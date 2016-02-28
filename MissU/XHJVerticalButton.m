@@ -13,7 +13,7 @@
 - (void)layoutSubviews{
     [super layoutSubviews];
     self.imageView.y = 0;
-    self.imageView.centerX = self.centerX;
+    self.imageView.x = 0;
     self.imageView.width = self.height > self.width ? self.width : self.height;
     self.imageView.height = self.imageView.width;
     

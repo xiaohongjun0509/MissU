@@ -91,7 +91,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     XHJTopicModel *model = self.resultList[indexPath.row];
-    return model.height;
+    return model.rowHeight;
 }
 
 

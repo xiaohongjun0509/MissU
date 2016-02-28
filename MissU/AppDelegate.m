@@ -22,9 +22,8 @@
     self.window.rootViewController = [[XHJTabBarController alloc]init];
     [self.window makeKeyAndVisible];
     [XHJGuideView show];
-    XHJPublishView *publishView = [[[NSBundle mainBundle] loadNibNamed:@"XHJPublishView" owner:nil options:nil] lastObject];
-    [self.window addSubview:publishView];
-    [publishView show];
+    
+    
     return YES;
 }
 

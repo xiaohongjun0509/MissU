@@ -16,3 +16,10 @@ const CGFloat  cellMarign = 10;
 const CGFloat CellHeaderH = 40;
 
 const CGFloat CellButtomH = 40;
+
+/*最大显示的图片的长度*/
+const CGFloat MaxPictureH = 500;
+
+/*折叠的图片的长度*/
+const CGFloat FoldPictureH = 250;
+

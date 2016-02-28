@@ -37,6 +37,9 @@
 		8256D4581C66BDE4004AEE0D /* XHJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8256D4571C66BDE4004AEE0D /* XHJNavigationController.m */; };
 		8256D45B1C66EFCF004AEE0D /* XHJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8256D45A1C66EFCF004AEE0D /* XHJTabBar.m */; };
 		8256D45E1C674484004AEE0D /* UIView+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 8256D45D1C674484004AEE0D /* UIView+Extention.m */; };
+		827165421C7B4FD300079D90 /* XHJTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 827165411C7B4FD300079D90 /* XHJTopicPictureView.m */; };
+		827165451C7B4FFA00079D90 /* XHJTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 827165441C7B4FFA00079D90 /* XHJTopicPictureView.xib */; };
+		82953E6B1C833F8E00469C4E /* XHJPicBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82953E6A1C833F8E00469C4E /* XHJPicBrowserController.m */; };
 		829C46C11C720D7600AD7E07 /* XHJCatagoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829C46BF1C720D7600AD7E07 /* XHJCatagoryViewController.m */; };
 		829C46C21C720D7600AD7E07 /* XHJCatagoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 829C46C01C720D7600AD7E07 /* XHJCatagoryViewController.xib */; };
 		829C46C61C72106300AD7E07 /* XHJLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 829C46C41C72106300AD7E07 /* XHJLeftViewController.m */; };
@@ -46,7 +49,6 @@
 		829C46CF1C72144B00AD7E07 /* XHJLeftCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 829C46CE1C72144B00AD7E07 /* XHJLeftCell.m */; };
 		829C46D21C7219AD00AD7E07 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 829C46D11C7219AD00AD7E07 /* NetworkManager.m */; };
 		82E8A5691C773702009F5E5C /* XHJPublishView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E8A5681C773702009F5E5C /* XHJPublishView.m */; };
-		82E8A56B1C77377A009F5E5C /* XHJPublishView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82E8A56A1C77377A009F5E5C /* XHJPublishView.xib */; };
 		82FCBA601C72B90C00D396BC /* XHJLeftCatagoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCBA5F1C72B90C00D396BC /* XHJLeftCatagoryModel.m */; };
 		82FCBA671C72CC6A00D396BC /* XHJRightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FCBA651C72CC6A00D396BC /* XHJRightCell.m */; };
 		82FCBA681C72CC6A00D396BC /* XHJRightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82FCBA661C72CC6A00D396BC /* XHJRightCell.xib */; };
@@ -117,6 +119,11 @@
 		8256D45C1C674484004AEE0D /* UIView+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extention.h"; sourceTree = "<group>"; };
 		8256D45D1C674484004AEE0D /* UIView+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extention.m"; sourceTree = "<group>"; };
 		8256D45F1C674919004AEE0D /* PreHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreHeader.h; sourceTree = "<group>"; };
+		827165401C7B4FD300079D90 /* XHJTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHJTopicPictureView.h; sourceTree = "<group>"; };
+		827165411C7B4FD300079D90 /* XHJTopicPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHJTopicPictureView.m; sourceTree = "<group>"; };
+		827165441C7B4FFA00079D90 /* XHJTopicPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XHJTopicPictureView.xib; sourceTree = "<group>"; };
+		82953E691C833F8E00469C4E /* XHJPicBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHJPicBrowserController.h; sourceTree = "<group>"; };
+		82953E6A1C833F8E00469C4E /* XHJPicBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHJPicBrowserController.m; sourceTree = "<group>"; };
 		829C46BE1C720D7600AD7E07 /* XHJCatagoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHJCatagoryViewController.h; sourceTree = "<group>"; };
 		829C46BF1C720D7600AD7E07 /* XHJCatagoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHJCatagoryViewController.m; sourceTree = "<group>"; };
 		829C46C01C720D7600AD7E07 /* XHJCatagoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XHJCatagoryViewController.xib; sourceTree = "<group>"; };
@@ -132,7 +139,6 @@
 		829C46D11C7219AD00AD7E07 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		82E8A5671C773702009F5E5C /* XHJPublishView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHJPublishView.h; sourceTree = "<group>"; };
 		82E8A5681C773702009F5E5C /* XHJPublishView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHJPublishView.m; sourceTree = "<group>"; };
-		82E8A56A1C77377A009F5E5C /* XHJPublishView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XHJPublishView.xib; sourceTree = "<group>"; };
 		82FCBA5E1C72B90C00D396BC /* XHJLeftCatagoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHJLeftCatagoryModel.h; sourceTree = "<group>"; };
 		82FCBA5F1C72B90C00D396BC /* XHJLeftCatagoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHJLeftCatagoryModel.m; sourceTree = "<group>"; };
 		82FCBA641C72CC6A00D396BC /* XHJRightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHJRightCell.h; sourceTree = "<group>"; };
@@ -245,6 +251,7 @@
 		821610CE1C5A1516002CFA90 /* Newest */ = {
 			isa = PBXGroup;
 			children = (
+				827165431C7B4FD900079D90 /* View */,
 				822867401C5B16CE004343A4 /* Controller */,
 			);
 			name = Newest;
@@ -446,6 +453,8 @@
 				8256D4541C6608A0004AEE0D /* XHJTabBarController.m */,
 				8256D4561C66BDE4004AEE0D /* XHJNavigationController.h */,
 				8256D4571C66BDE4004AEE0D /* XHJNavigationController.m */,
+				82953E691C833F8E00469C4E /* XHJPicBrowserController.h */,
+				82953E6A1C833F8E00469C4E /* XHJPicBrowserController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -484,12 +493,21 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		827165431C7B4FD900079D90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				827165401C7B4FD300079D90 /* XHJTopicPictureView.h */,
+				827165411C7B4FD300079D90 /* XHJTopicPictureView.m */,
+				827165441C7B4FFA00079D90 /* XHJTopicPictureView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		82E8A5661C773657009F5E5C /* View */ = {
 			isa = PBXGroup;
 			children = (
 				82E8A5671C773702009F5E5C /* XHJPublishView.h */,
 				82E8A5681C773702009F5E5C /* XHJPublishView.m */,
-				82E8A56A1C77377A009F5E5C /* XHJPublishView.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -580,7 +598,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				822867511C5B179D004343A4 /* MeViewController.xib in Resources */,
-				82E8A56B1C77377A009F5E5C /* XHJPublishView.xib in Resources */,
 				8228674A1C5B1766004343A4 /* PublishViewController.xib in Resources */,
 				822867451C5B16EA004343A4 /* NewestViewController.xib in Resources */,
 				82FCBA7A1C73055500D396BC /* XHJGuideView.xib in Resources */,
@@ -597,6 +614,7 @@
 				829C46C71C72106300AD7E07 /* XHJLeftViewController.xib in Resources */,
 				822867561C5B17B0004343A4 /* AttentionViewController.xib in Resources */,
 				82FCBA681C72CC6A00D396BC /* XHJRightCell.xib in Resources */,
+				827165451C7B4FFA00079D90 /* XHJTopicPictureView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,10 +679,12 @@
 				824E0DB91C75D0F7002C0D42 /* XHJRegisterController.m in Sources */,
 				824E0DB11C7599E0002C0D42 /* XHJTweetCell.m in Sources */,
 				82FCBAA21C731A6100D396BC /* XHJPictureController.m in Sources */,
+				82953E6B1C833F8E00469C4E /* XHJPicBrowserController.m in Sources */,
 				824E0DAD1C75762D002C0D42 /* XHJTopicModel.m in Sources */,
 				82FCBA9C1C731A3A00D396BC /* XHJAllController.m in Sources */,
 				822867551C5B17B0004343A4 /* AttentionViewController.m in Sources */,
 				821610BB1C5A10D3002CFA90 /* AppDelegate.m in Sources */,
+				827165421C7B4FD300079D90 /* XHJTopicPictureView.m in Sources */,
 				82FCBA6B1C72CDE600D396BC /* XHJRightDetailModel.m in Sources */,
 				824E0DB51C75CF6A002C0D42 /* XHJVerticalButton.m in Sources */,
 				823916C91C74674E00D90D5B /* XHJConst.m in Sources */,

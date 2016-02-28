@@ -11,7 +11,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="181"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="180.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="181"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hRg-Sn-Yl0">
@@ -159,7 +159,7 @@
                         </constraints>
                     </view>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K1x-pm-Hdk">
-                        <rect key="frame" x="10" y="50" width="300" height="81"/>
+                        <rect key="frame" x="10" y="50" width="300" height="16"/>
                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                         <color key="textColor" red="0.4823529412" green="0.4823529412" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
@@ -170,7 +170,6 @@
                     <constraint firstItem="K1x-pm-Hdk" firstAttribute="top" secondItem="hRg-Sn-Yl0" secondAttribute="bottom" constant="10" id="Bqs-sJ-Vyr"/>
                     <constraint firstAttribute="bottom" secondItem="gH0-s0-25j" secondAttribute="bottom" id="Dm2-Vh-Pmr"/>
                     <constraint firstAttribute="bottom" secondItem="hRg-Sn-Yl0" secondAttribute="bottom" id="E5D-sM-GkJ"/>
-                    <constraint firstItem="gH0-s0-25j" firstAttribute="top" secondItem="K1x-pm-Hdk" secondAttribute="bottom" constant="10" id="PZu-0B-Id9"/>
                     <constraint firstAttribute="trailing" secondItem="K1x-pm-Hdk" secondAttribute="trailing" constant="10" id="R9D-YN-Wnw"/>
                     <constraint firstAttribute="trailing" secondItem="hRg-Sn-Yl0" secondAttribute="trailing" id="aQD-4r-Wcj"/>
                     <constraint firstItem="K1x-pm-Hdk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="bdN-Wh-DRm"/>
